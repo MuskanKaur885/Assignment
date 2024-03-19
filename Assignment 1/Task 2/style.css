@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+header::before{
+    background: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg')no-repeat center center/cover;
+   background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+
+
+
+/* navbar section */
+.logoImg{
+    color: rgb(164, 154, 154);
+    font-size: 20px;
+    padding-left: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+nav {
+    
+}
+
+.navigation{
+padding: 5px 25px;
+font-size: 30px;
+display: flex;
+margin-right: 90px;
+gap: 20px;
+}
+
+
+.navigation  li{
+    list-style: none;
+    }
+
+.navigation  a{
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(164, 154, 154);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+
+/* body section */
+    .midContent{
+        border: 2px solid transparent;
+        width: 350px;
+        margin: 100px;
+        text-align: left;
+        color:rgb(164, 154, 154);
+        
+    }
+    .midContent span{
+font-size: 5rem;
+}
+.midContent p{
+    font-size: 20px;
+}
+
+.midContent button{
+    background-color: rgb(23, 183, 117);
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    width:  100px;
+    margin: 10px;
+}
+.circles{
+display: flex;
+
+}
+#spot1{
+    border: 2px solid transparent;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #69ac62;
+    margin: 10px;
+    
+}
+#spot2{
+    border: 2px solid transparent;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #95dc8d;
+    margin: 10px;
+    
+}
+#spot3{
+    border: 2px solid transparent;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #a2c99e;
+    margin: 10px;
+    
+}
+#spot4{
+    border: 2px solid transparent;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #dbf5d8;
+    margin: 10px;
+    
+}

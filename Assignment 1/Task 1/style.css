@@ -1,0 +1,34 @@
+
+        #bahamas-flag{
+            width: 0;
+            height: 0px;
+            border-top: 100px solid transparent;
+            border-left: 100px solid black; 
+            border-bottom: 100px solid transparent; 
+            position: absolute;
+            
+          }
+
+.flag{
+    height: 200px;
+    width: 300px; 
+}
+
+.bluestrip{
+    width: 300px;
+    height: 66px;
+    background-color: #00A9CE;
+
+}
+
+.yellowstrip{
+    width: 300px;
+    height: 67px;
+    background-color: #FDDA25; 
+}
+
+.laststrip{
+    width: 300px;
+    height: 67px;
+    background-color: #00A9CE;  
+}
